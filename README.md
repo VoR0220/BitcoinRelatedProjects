@@ -9,4 +9,6 @@ bitcore).
 
 You should be able to run this by inputting the command as follows:
 
-python quickTestNetBot.py [Wallet Address] and have it automatically inputted into tpfaucett....granted you will have to input the captcha....but god isn't that so much easier? 
+python quickTestNetBot.py [Wallet Address] 
+
+and have it automatically inputted into tpfaucett....granted you will have to input the captcha....but god isn't that so much easier? 
