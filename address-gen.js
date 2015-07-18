@@ -11,7 +11,9 @@ client.createWallet("My Wallet", "RJ", 2, 2, {network: 'testnet'}, function(err,
   // Handle err
   console.log('Wallet Created. Share this secret with your copayers: ' + secret);
   fs.writeFileSync('RJ.dat', client.export());
-  client.createAddress(function(err, addr){
-    fs.writeFileSync('RJaddr.dat', addr);	
-  });
 });
+
+client.createAddress(function(err, addr){
+  	fs.writeFileSync('RJaddr.dat', addr);	
+});
+
